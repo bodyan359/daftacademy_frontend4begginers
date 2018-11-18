@@ -1,0 +1,49 @@
+.page-header {
+    position: fixed;
+    text-align: left;
+}
+.page-footer {
+    position: fixed;
+    bottom: 30px;
+}
+.band-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.content-section__header {
+    text-align: right;
+    letter-spacing: 4.5px;
+    font-family: 'Open Sans';
+
+}
+
+.about-section__desc {
+    display: flex;
+    min-height: 100vh;
+    justify-content:align-items;
+    float: left
+}
+
+.concerts {
+    display: flex;
+    justify-content:safe;
+    flex-wrap: wrap;    
+    width:100%;
+    flex-direction: row-reverse;
+}
+iframe {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.contact-section {
+    display: flex;
+    margin-left: 300px;
+}
